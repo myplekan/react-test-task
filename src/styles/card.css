@@ -1,0 +1,33 @@
+.card {
+  position: relative;
+  border: 1px solid #000;
+  background-color: antiquewhite;
+}
+
+.card--active {
+  z-index: 3;
+}
+
+.card__close {
+  position: absolute;
+  right: 5px;
+  height: 20px;
+  padding: 0 4px;
+  border-radius: 0;
+  border: 1px solid #000;
+  background-color: aqua;
+  font-size: 0.8rem;
+  outline: none;
+  cursor: pointer;
+}
+.card__close:focus {
+  outline: 0;
+}
+
+.card__title {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
