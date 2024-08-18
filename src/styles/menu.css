@@ -1,0 +1,27 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #000;
+  list-style-type: none;
+}
+
+.menu__item {
+  display: inline-flex;
+  padding: 10px 4px;
+  color: #000;
+  transition: 300ms;
+  text-decoration: none;
+}
+
+.menu__item:hover {
+  color: #4673a7;
+}
+
+.menu__item--active {
+  color: #5f92cc;
+}
