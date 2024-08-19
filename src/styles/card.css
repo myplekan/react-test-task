@@ -4,10 +4,6 @@
   background-color: antiquewhite;
 }
 
-.card--active {
-  z-index: 3;
-}
-
 .card__close {
   position: absolute;
   right: 5px;

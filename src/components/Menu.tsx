@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import "../styles/menu.css";
 const Menu = () => {
   const { pathname } = useLocation();
-  console.log(location.pathname);
+
   return (
     <ul className="menu">
       <li>
