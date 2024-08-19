@@ -4,6 +4,9 @@ This project demonstrates the use of React, `react-grid-layout`, and WebSocket t
 
 ## Sections
 
+**Libraries and Resources:**
+- **`react-router-dom`**: Provides routing capabilities to navigate between different sections of the application.
+
 ### Section 1: Layout with `react-grid-layout`
 
 **Libraries and Resources:**
